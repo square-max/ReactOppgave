@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700&display=swap');
+.App {
+  background-color: #eee;
+
+}
+.spill {
+  
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(216, 34, 34);
+  background-image: url("https://i.pinimg.com/originals/ba/94/4e/ba944e532e51f966700821688795a1e5.jpg");
+
+  background-repeat: no-repeat;
+
+ 
+
+}
+
+h1{
+  background-color: rgb(216, 34, 34);
+  height: 40px;
+  margin: 0;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 150;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.players:hover{
+  background-color: rgb(173, 173, 173);
+  cursor: pointer;
+}
+
+.soccer .players:hover{
+  background-color: none;
+}
+

@@ -1,0 +1,83 @@
+
+
+.england{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.1rem;
+    gap: 0.1rem;
+  
+    max-width: 50vw;
+    overflow: auto;
+    background-color: black;
+    margin: 1rem auto;
+    border-radius: 25px;
+    max-height: 130vh;
+    overflow: scroll;
+   
+}
+.soccer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+  
+ 
+    background-image: url("http://www.clker.com/cliparts/i/l/M/o/r/l/soccer-field-hi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+} 
+
+.soccer div{
+    width: 200px;
+    padding: 0;
+    margin: 3rem 0 0 0;
+    background-color: transparent;
+}
+.soccer img {
+ 
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+   
+}
+
+
+.players{
+    min-height: 200px;
+    text-align: center;
+    padding: 1rem;
+    background-color:#eee;
+    max-height: 100vh;
+    
+}
+
+.players img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+
+
+h1{
+    text-align: center;
+    
+}
+.filter {
+    text-align: center;
+    padding: 1rem;
+    background-color:#eee;
+   
+}
+
+.filter input{
+    height: 25px;
+    width: 200px;
+    border: solid 2px rgb(163, 8, 8);
+    font-size: 1rem;
+    border-radius: 25px;
+    text-align: center;
+}
